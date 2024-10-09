@@ -3,7 +3,7 @@ from django.shortcuts import render
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
-from .openai_utils import get_chatgpt_response
+from .langchain_chatbot import get_chatgpt_response
 
 @csrf_exempt  # Temporarily disable CSRF protection for testing (remove in production)
 
