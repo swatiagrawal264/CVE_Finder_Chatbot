@@ -1,9 +1,9 @@
 # SecurityLens-CVEFinder
-
+![Alt text for image 1](./Images/image_1.png)
 SecurityLens is an AI-powered chatbot integrated into a Django-based web application designed to efficiently retrieve and display information about Common Vulnerabilities and Exposures (CVEs). Developed with the help of OpenAI's API and LangChain, SecurityLens provides users with detailed insights into vulnerabilities associated with various systems and software.
 
 ## Features
-
+![Alt text for image 2](./Images/image_2.png)
 1. AI Chatbot Integration: Leveraging LangChain with OpenAI's GPT-4 model, SecurityLens responds to user queries about specific CVEs or related keywords.
 2. Django Backend: A robust Django backend that manages user requests, interacts with the CVE database, and serves the AI-generated responses.
 3. CVEs Data Retrieval: Fetches data from the National Vulnerability Database (NVD) using APIs to provide up-to-date information on CVEs.
@@ -81,3 +81,5 @@ python manage.py runserver
 For more information, please contact Medha Goel and Swati Agrawal, the developers of SecurityLens.
 mgoel@umass.edu
 swatiagrawal@umass.edu
+
+[def]: /Images/image_1
