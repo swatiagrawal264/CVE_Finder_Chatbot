@@ -36,13 +36,13 @@ cd SecurityLens -->
 Create a .env file in the root directory and add your OpenAI API key:
 
 Copy code 
-OPENAI_API_KEY=your_openai_api_key
+``OPENAI_API_KEY=your_openai_api_key``
 
 3. Build and Run with Docker: 
 Ensure all dependencies are listed in your requirements.txt, including langchain and langchain_openai.
 
 Copy code
-docker-compose up --build
+``docker-compose up --build``
 
 4. Access the Application: 
 Open your browser and navigate to http://localhost:8000 to interact with the SecurityLens chatbot.
